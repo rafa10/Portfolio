@@ -1,0 +1,118 @@
+html{
+	/*font-family: 'Lato', sans-serif !important;*/
+}
+
+body{
+	background: #f5f5f5;
+}
+
+
+/*=========================== layout ================================*/
+
+
+.info{
+	padding-top: 3rem;
+	min-height: 100vh;	
+}
+
+.info .card-content img{
+	z-index: 500;
+	position: absolute;
+	margin-top:-150px ;
+}
+
+
+.content{
+	width: 100% !important;
+	background: #f5f5f5;
+}
+
+
+
+#competences,
+#experiences,
+#formations,
+#centre,
+#contact{
+	background: #f5f5f5;
+	background-size: cover;
+	width: 100%;
+	min-height: 100vh;
+	margin: 0 auto;
+	margin: -1.2rem 0;
+}
+
+#competences{
+	margin: -0.9rem 0;
+}
+
+#contact{
+	background-image: url(../img/bg_map.jpg);
+}
+
+nav{
+	z-index: 1000;
+}
+
+footer .page-footer{
+	background: #f5f5f5;
+}
+
+/*=========================== Base ==================================*/
+
+.cadre{
+	border: 1px solid #00bfa5;
+}
+h3{ color: #e91e63  ; }
+
+h5{	padding: 10px; }
+
+h6{ color: #000; }
+
+hr{
+	border: 0 !important;
+	height: 1px !important;
+	background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0)) !important;
+}
+
+
+/*=========================== module ================================*/
+
+nav{
+	position: fixed;
+}
+
+
+.content .card-image img{
+	width: 202px;
+	height: 210px;
+	text-align: center;
+}
+
+#experiences .slider,
+#experiences .slides,
+#experiences .slider .slides li,
+#experiences .slider .slides li img{
+	min-height: 80vh !important;
+}
+
+#experiences .slider .slides li{
+	z-index: 500;
+}
+
+#experiences .slider .slides li img{
+	z-index: 400;
+}
+
+#experiences .slider .slides .caption{
+	display: inline-block;
+	background-color:white;
+	opacity: 1 !important;
+	padding: 10px;
+	border-radius: 2px;
+}
+
+#experiences .slider .slides .caption h5,
+#experiences .slider .slides .caption h1{*
+	opacity: 1 !important;
+}
