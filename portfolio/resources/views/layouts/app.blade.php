@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8" />
-	<title>laracinema - @yield('title') </title>
+	<title>portfolio - @yield('title') </title>
 	<!-- import icon font-awesome-->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
 	<!--Import Google Icon Font-->

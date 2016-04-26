@@ -11,16 +11,18 @@
 		</div>
 		<div class="card-content">
 			<img class="z-depth-1 circle" src="{{$user->photo}}" width="150" height="150" alt="avatar" >
-      <span class="card-title activator grey-text text-darken-4">{{$user->name}} {{$user->lastname}}<a class="btn-floating activator waves-effect waves-light darken-2 pink right">
-			  <i class="mdi-action-perm-identity"></i>
-		  </a>
-      </span><br>
+      		<span class="card-title activator grey-text text-darken-4">{{$user->name}} {{$user->lastname}}
+				<a class="btn-floating activator waves-effect waves-light darken-2 pink right">
+					<i class="mdi-action-perm-identity"></i>
+		  		</a>
+      		</span><br>
 			<span class="pink-text">{{$user->title}}</span>
 			<!-- <p><a href="#">This is a link</a></p> -->
 		</div>
 		<div class="card-reveal">
 			<span class="card-title grey-text text-darken-4">{{$user->name}} {{$user->lastname}}<i class="material-icons right">close</i></span>
 			<span><i class="mdi-action-perm-identity pink-text text-darken-2"></i>{{$user->title}}</span>
+			<p><i class="mdi-social-cake pink-text text-darken-2"></i> {{$user->age}} ans </p>
 			<p><i class="mdi-action-perm-phone-msg pink-text text-darken-2"></i> (+33) {{$user->phone}}</p>
 			<p><i class="mdi-communication-email pink-text text-darken-2"></i> {{$user->email}}</p>
 			<p><i class="mdi-maps-place pink-text text-darken-2"></i> {{$user->address}}</p>
